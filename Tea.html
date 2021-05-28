@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Tea Project</title>
+    <link href="https://fonts.googleapis.com/css2?family=Alata&family=Red+Rose:wght@700&family=Roboto:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+     <style>
+     .body{
+       max-width: 100%;
+     }
+      .start{
+      width:1450px;
+      height:1450px;
+     position: relative;
+     transition: width 5s;
+    transition-timing-function: ease-in-out;
+   }
+   .start:hover{
+     width:100%;
+   }
+
+       .middle{
+         background: url("Capture1.JPG") no-repeat  fixed;
+         top:70px;
+         left:80px;
+         position: absolute;
+          max-width:950px;
+          height:500px;
+       }
+
+       .start img{
+         position: relative;
+         width:100%;
+       }
+
+       .footer{
+        top:55px;
+        left:400px;
+         position: absolute;
+        border-radius: 10px;
+         text-decoration: none;
+         padding:1% 0.5%;
+       }
+       .footer button a{
+         font-size: 1rem;
+         padding: 20px 10px;
+         text-decoration: none;
+         color:black;
+       }
+       .home{
+         background-image: url("home.png");
+         background-repeat: no-repeat;
+         top:4px;
+        right:880px;
+          position: absolute;
+          background-color: #7FB8EA;
+       }
+       .btn:hover{
+         background-color:#1B9B0A;
+       }
+       .search{
+         margin-left:840px;
+         top:30px;
+       }
+       .home:hover{
+         background-color:#1B9B0A;
+       }
+      input[type=text]{
+      width:20%;
+      padding:15px 5px;
+      font-size:1rem;
+      margin:10px 0;
+      box-sizing:border-box;
+      border:3px solid salmon;
+      border-radius:5px;
+      background-color: #EEEEEE;
+      float:right;
+    }
+    .sas{
+      position: relative;
+    }
+    .search{
+      position: absolute;
+    }
+
+       .container{
+         display: inline;
+      position: relative;
+       }
+       .content{
+      position: absolute;
+      text-align: left;
+      min-width: 170px;
+      display: none;
+      background-color: #EEEEEE;
+      cursor: pointer;
+
+       }
+       .content a{
+         display: block;
+         text-decoration: none;
+         padding:5% 5%;
+       }
+       .container:hover .content{
+         display: block;
+       }
+       .content a:hover{
+         background-color:#1591DE;
+       }
+       .container1{
+         display: inline;
+      position: relative;
+       }
+       .content1{
+      position: absolute;
+      text-align:left;
+      margin-left: 180px;
+      display: none;
+      background-color: #EEEEEE;
+
+       }
+       .content1 a{
+         display: block;
+         text-decoration: none;
+         padding: 5% 5%;
+       }
+       .container1:hover .content1{
+         display: block;
+       }
+       .content1 a:hover{
+         background-color:#1591DE;
+       }
+       .container2{
+         display: inline;
+      position: relative;
+       }
+       .content2{
+      position: absolute;
+      text-align:right;
+      margin-left: 280px;
+      display: none;
+      background-color: #EEEEEE;
+
+       }
+       .content2 a{
+         display: block;
+         text-decoration: none;
+         padding: 5% 5%;
+         font-size: 1rem;
+       }
+       .container2:hover .content2{
+         display: block;
+       }
+       .content2 a:hover{
+         background-color:#1591DE;
+       }
+       .container3{
+         display: inline;
+      position: relative;
+       }
+       .content3{
+      position: absolute;
+      text-align:right;
+      margin-left: 480px;
+      display: none;
+      background-color: #EEEEEE;
+
+       }
+       .content3 a{
+         display: block;
+         text-decoration: none;
+         padding: 10% 15%;
+         font-size: 1rem;
+       }
+       .container3:hover .content3{
+         display: block;
+       }
+       .content3 a:hover{
+         background-color:#1591DE;
+       }
+       .last{
+         font-family: 'Alata', sans-serif;
+       font-family: 'Red Rose', cursive;
+         font-family: 'Roboto', sans-serif;
+        }
+       .last{
+         width:100%;
+       }
+       .start{
+         position:relative;
+       }
+       .last{
+        position: absolute;
+        bottom:50%;
+        left:50%;
+        text-align: center;
+        justify-content: center;
+        display: flex;
+        transform:translate(-50%,-50%);
+        font-size:5.5rem;
+        color:white;
+       }
+
+
+</style>
+</head>
+<body>
+   <div class="menu ">
+  <div class="start">
+   <p><img src="tea.jpeg" alt="pic"><p>
+  <div class="middle">
+    <img src="Capture1.JPG" alt="pic">
+  </div>
+
+  <div class="footer">
+  <div class="home"><img src="home.png" alt=""></div>
+   <div class="container">
+     <button class="btn"><a href="#">About us</a></button>
+     <div class="content">
+     <a onclick="window.open('http://www.ispahanitea.com/home/aboutus')"class="btn request callback" href="http://www.ispahanitea.com/home/aboutus">About us</a>
+     <a onclick="window.open('http://www.ispahanitea.com/home/awards')"class="btn request callback" href="http://www.ispahanitea.com/home/awards">Our Awards</a>
+     <a onclick="window.open('http://www.ispahanitea.com/home/teatrade')"class="btn request callback" href="http://www.ispahanitea.com/home/teatrade">Tea trade in Bangladesh</a></div></div>
+    <button  class="btn"><a href="#">Our Gardens</a></button>
+    <div class="container1">
+    <button  class="btn"><a href="#">Our brands</a></button>
+    <div class="content1">
+      <a onclick="window.open('http://www.ispahanitea.com/home/ourbrand/ispahani-mirzapore-tea')"class="btn request callback" href="http://www.ispahanitea.com/home/ourbrand/ispahani-mirzapore-tea">Ispahani Mirzapur Tea</a>
+    <a onclick="window.open('http://www.ispahanitea.com/home/ourbrand/blenders-choice-premium-tea')"class="btn request callback" href="http://www.ispahanitea.com/home/ourbrand/blenders-choice-premium-tea">Blender's Choice Premium Tea</a>
+      <a onclick="window.open('http://www.ispahanitea.com/home/ourbrand/zareen-premium-tea')"class="btn request callback" href="http://www.ispahanitea.com/home/ourbrand/zareen-premium-tea">Zareen Premium Tea</a>
+     <a onclick="window.open('http://www.ispahanitea.com/home/ourbrand/other-tea-brands')"class="btn request callback" href="http://www.ispahanitea.com/home/ourbrand/other-tea-brands">Other Tea Brands</a>
+     <a onclick="window.open('http://www.ispahanitea.com/home/skuprice')"class="btn request callback" href="http://www.ispahanitea.com/home/skuprice">Ispahani Tea SKU&Price</a>
+     <a onclick="window.open('http://www.ispahanitea.com/home/faq')"class="btn request callback" href="http://www.ispahanitea.com/home/faq">FAQs</a></div></div>
+   <div class="container2">
+    <button  class="btn"><a href="#">Campaigns</a></button>
+    <div class="content2">
+    <a onclick="window.open('http://www.ispahanitea.com/home/campaigns')"class="btn request callback" href="http://www.ispahanitea.com/home/campaigns">Thematic Campaign</a>
+  <a onclick="window.open('http://www.banglabid.com/home')"class="btn request callback" href="http://www.banglabid.com/home">Ispahani Mirzapore Banglabid</a>
+    <a onclick="window.open('http://www.ispahanitea.com/home/conpromotion')"class="btn request callback" href="http://www.ispahanitea.com/home/conpromotion">Consumer Promotion</a>
+   </div></div>
+   <div class="container3">
+  <button  class="btn"><a href="#">Media & Reports</a></button>
+  <div class="content3">
+    <a onclick="window.open('http://www.ispahanitea.com/home/press')"class="btn request callback" href="http://www.ispahanitea.com/home/press">Press Release</a>
+  <a onclick="window.open('http://www.ispahanitea.com/home/tvc')"class="btn request callback" href="http://www.ispahanitea.com/home/tvc">Advertisement
+    /TVC</a></div></div>
+    <button  class="btn"><a href="#">Career</a></button>
+    <button  class="btn"><a href="#">Contact us</a></button>
+<div class="sas">
+
+<input type="text" name="search" placeholder="search">
+<div class="search"><img src="search.png"alt=""></div>
+
+</div>
+</div>
+<div class="last">
+   <p>TEA IS OUR LIFE</P>
+</div>
+</div>
+</div>
+</body>
+</html>
